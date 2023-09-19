@@ -21,6 +21,6 @@ public class User {
     @Qualifier("meesho")
     public void setApp(ShoppingApp app) {
         System.out.println("Setter Injection");
-//        this.app = app;
+        this.app = app;
     }
 }

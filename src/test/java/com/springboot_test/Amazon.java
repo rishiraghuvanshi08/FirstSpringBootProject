@@ -5,7 +5,7 @@ import org.springframework.context.annotation.Primary;
 import org.springframework.stereotype.Component;
 
 @Component
-//@Primary
+@Primary
 @Qualifier("amazon")
 public class Amazon implements ShoppingApp{
     public Amazon() {
