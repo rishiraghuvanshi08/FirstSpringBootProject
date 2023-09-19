@@ -16,6 +16,10 @@ class FirstSpringBootProjectApplicationTests {
 		UserConstructor userByConst = (UserConstructor) context.getBean("userConstructor");
 
 		userByConst.iphone.actionOnHold();
+
+		UserAutoWire userByAuto = (UserAutoWire) context.getBean("userAutoWire");
+
+		userByAuto.iphone.actionOnTouch();
 	}
 }
 

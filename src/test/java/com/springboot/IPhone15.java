@@ -18,6 +18,6 @@ public class IPhone15 implements IPhone{
 
     @Override
     public void actionOnTouch() {
-        System.out.println("Unlock");
+        System.out.println("Unlock on Touch");
     }
 }
